@@ -1,0 +1,70 @@
+article.m-hcard-preview {
+  position: relative;
+  min-height: 600px;
+  font-family: 'Merriweather';
+  font-size: 10px; }
+  article.m-hcard-preview .card {
+    /* vertical center */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    border-bottom: 2px solid #627b8b; }
+    article.m-hcard-preview .card .header {
+      background-color: #2c3e50;
+      height: 90px;
+      position: relative; }
+      article.m-hcard-preview .card .header .title {
+        position: absolute;
+        right: 0px;
+        top: -20px;
+        text-align: right;
+        font-family: 'Merriweather Sans';
+        font-size: 1.2em;
+        color: #a9b6b7; }
+      article.m-hcard-preview .card .header .name {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: white;
+        font-size: 2em;
+        font-weight: bold; }
+      article.m-hcard-preview .card .header .avatar {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        width: 90px;
+        height: 110px;
+        border: 1px solid gray; }
+    article.m-hcard-preview .card .body {
+      background-color: white;
+      padding: 20px; }
+      article.m-hcard-preview .card .body .row {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px; }
+        article.m-hcard-preview .card .body .row .field {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: flex-end; }
+        article.m-hcard-preview .card .body .row .field-half {
+          width: 50%;
+          display: flex;
+          flex-direction: row;
+          align-items: flex-end; }
+        article.m-hcard-preview .card .body .row .label {
+          width: 50px;
+          border-bottom: 1px solid #b0b8bc;
+          font-size: 1em;
+          font-family: 'Merriweather Sans';
+          color: #34495e;
+          line-height: 1.3em; }
+        article.m-hcard-preview .card .body .row .content {
+          width: calc(100% - 50px);
+          border-bottom: 1px solid #b0b8bc;
+          padding-left: 25px;
+          font-size: 15px;
+          line-height: 1.3em; }

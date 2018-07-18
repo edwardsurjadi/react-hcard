@@ -1,0 +1,76 @@
+article.m-hcard-form {
+  position: relative;
+  min-height: 600px;
+  font-family: 'Merriweather Sans';
+  font-size: 12px; }
+  @media only screen and (min-width: 768px) {
+    article.m-hcard-form .form {
+      /* vertical center */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); } }
+  article.m-hcard-form .form {
+    margin: 0;
+    width: 100%;
+    padding: 40px; }
+  article.m-hcard-form h1 {
+    font-size: 2.8em;
+    font-weight: 800;
+    color: #2c3e50; }
+  article.m-hcard-form section {
+    margin-bottom: 30px; }
+    article.m-hcard-form section h1 {
+      font-size: 1em;
+      font-weight: 400;
+      border-bottom: 1px solid #b0b8bc;
+      color: #b0b8bc; }
+  article.m-hcard-form .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px; }
+    @media only screen and (max-width: 479px) {
+      article.m-hcard-form .row .col {
+        width: 100%; } }
+    @media only screen and (min-width: 480px) {
+      article.m-hcard-form .row .col {
+        width: 50%;
+        padding-left: 10px; }
+        article.m-hcard-form .row .col:first-child {
+          padding-left: 0px;
+          padding-right: 10px; } }
+    @media only screen and (min-width: 768px) {
+      article.m-hcard-form .row .col {
+        width: 50%;
+        padding-left: 10px; }
+        article.m-hcard-form .row .col:first-child {
+          padding-left: 0px;
+          padding-right: 10px; } }
+    article.m-hcard-form .row .col .label {
+      font-size: 1em;
+      color: #627b8b; }
+    article.m-hcard-form .row .col input {
+      width: 100%;
+      font-family: 'Merriweather';
+      font-size: 1em;
+      font-weight: 300;
+      border-radius: 5px;
+      border: 1px solid #b0b8bc;
+      padding: 8px; }
+  article.m-hcard-form .btn {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%; }
+    article.m-hcard-form .btn:hover {
+      cursor: pointer; }
+  article.m-hcard-form .btn-primary {
+    background-color: #3498db;
+    border-bottom: 4px solid #2980b9; }
+  article.m-hcard-form .btn-secondary {
+    background-color: #627b8b;
+    border-bottom: 4px solid #3f515d; }
