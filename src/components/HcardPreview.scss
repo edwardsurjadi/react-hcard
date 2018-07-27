@@ -7,7 +7,7 @@ article.m-hcard-preview{
 	font-size:10px;
 
 
-	.card{
+	.h-card{
 		/* vertical center */
 		margin:0;
 		position:absolute;
@@ -32,7 +32,7 @@ article.m-hcard-preview{
 				color:#a9b6b7;
 			}
 
-			.name{
+			.p-name{
 				position:absolute;
 				bottom:20px;
 				left:20px;
@@ -41,8 +41,16 @@ article.m-hcard-preview{
 				font-weight:bold;
 			}
 
-			.avatar{
+			.u-photo{
 				position:absolute;
+				top:5px;
+				right:10px;
+				width:90px;
+				height:110px;
+				border:1px solid gray;
+			}
+			.drop-zone{
+				position:absolute !important;
 				top:5px;
 				right:10px;
 				width:90px;

@@ -43,7 +43,7 @@ describe("HcardPreview", () => {
 	it("renders full name correctly by concatenating first and last", () => {
 		const wrapper = mount(<HcardPreview givenName="first" lastName="last"/>);
 
-		const buttonLabel =  wrapper.find("div.name").first().text();
+		const buttonLabel =  wrapper.find("div.p-name").first().text();
 		expect(buttonLabel).toEqual('first last');
 	});
 	it("does not display comma if state is not passed", () => {
